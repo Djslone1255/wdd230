@@ -1,10 +1,11 @@
 * {
     text-align: center;
     vertical-align: baseline;
-    padding: 1em;
   }
 
   body {
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-rows: auto;
   }
@@ -15,7 +16,7 @@
       color:rgb(255, 255, 255);
       background-color:rgb(44, 44, 151);
   }
-  
+
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -59,6 +60,7 @@
   }
   
   h3{
+    margin: 0;
     padding: 1em;
     color:rgb(255, 255, 255);
     background-color: rgb(44, 44, 151);
