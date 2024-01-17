@@ -1,4 +1,5 @@
 * {
+  font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     vertical-align: baseline;
   }
@@ -7,11 +8,16 @@
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-rows: auto;
+    grid-template-columns: 100%;
+  }
+
+  img {
+    vertical-align: middle;
+    max-width: 5%;
   }
   
   .edge {
-      vertical-align: baseline;
+      vertical-align: middle;
       padding: 1em;
       color:rgb(255, 255, 255);
       background-color:rgb(44, 44, 151);
@@ -32,12 +38,12 @@
   }
   
   nav li a.active {
-    background-color: rgb(44, 44, 151);
+    background-color: rgb(95, 95, 95);
     color: black;
   }
   
   nav li a:hover:not(.active) {
-    background-color: rgb(44, 44, 151);
+    background-color: rgb(95, 95, 95);
     color: white;
   }
   
@@ -48,6 +54,7 @@
   }
   
   .card ul{
+    list-style-type: none;
     margin: 1em;
   }
   
