@@ -22,27 +22,24 @@
       color:rgb(255, 255, 255);
       background-color:rgb(44, 44, 151);
   }
-
-  nav ul {
+  
+  nav a {
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #000000;
-  }
-  
-  nav li a {
     display: block;
     color: #fff;
     padding: 8px 16px;
     text-decoration: none;
   }
   
-  nav li a.active {
+  nav a.active {
     background-color: rgb(95, 95, 95);
     color: black;
   }
   
-  nav li a:hover:not(.active) {
+  nav a:hover:not(.active) {
     background-color: rgb(95, 95, 95);
     color: white;
   }
