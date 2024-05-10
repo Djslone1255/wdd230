@@ -3,6 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device=width, initial-scale=1">
+        <meta ptoperty="og:title" content="David Slone WDD 230 Homepage" />
+        <meta ptoperty="og:type" content="website" />
+        <meta ptoperty="og:url" content="https://djslone1255.github.io/wdd230/" />
+        <meta ptoperty="og:image" content="http://www.mccormickwoodshoa.com/mccormickwoodshoa/upld_files/hoa0669/f0625_mccormick_woods_entrance--june_11_2011_2_1.jpg" />
         <title>
             David Slone - WDD 230 - Web Frontend Development            
         </title>
@@ -12,7 +16,9 @@
         <meta
         name="author"
         content="David Slone">
+        <link rel="stylesheet" href="styles/normalize.css">
         <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
     </head>
     <body>
         <header class="edge">
@@ -21,7 +27,8 @@
                 David Slone
             </h1>
         </header>
-        <nav>
+        <button id="menu"></button>
+        <nav class="navigation">
             <a href="#">Home</a>
             <a href="lesson03/chamber-site-plan.html">Site Plan</a>
             <a href="chamber/">Chamber</a>
@@ -34,12 +41,18 @@
                 <h3>Learning Activities</h3>
                 <ul>
                     <li>01:<a href="lesson01/holygrail.html">Holy Grail</a></li>
+                    <li>02:<a href="lesson02/design.html">Design</a></li>
+                    <li>03:<a href="lesson02/media-query.html">Media Query</a></li>
                 </ul>
             </section>
             <section class="card">
                 <h3>Information</h3>
                 <p>Weather: cloudy or rainy <br>
                      Nunber of visits: some</p>
+            </section>
+            <section class="card" id = "map">
+                <h3>Map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6540.028341364054!2d-122.69595161711709!3d47.48533768099979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54904a12c8538cdb%3A0x6b7d9c8d94342f54!2s6929%20Wentworth%20Ave%20SW%2C%20Port%20Orchard%2C%20WA%2098367!5e0!3m2!1sen!2sus!4v1715199542112!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
         </main>
         <footer class="edge"> 
@@ -49,5 +62,6 @@
             <p id="lastModified"></p>
         </footer>
         <script src="scripts/getdates.js"></script>
+        <script src="scripts/hanburgemenu.js"></script>
     </body>
 </html>

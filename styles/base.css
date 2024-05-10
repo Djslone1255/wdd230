@@ -13,7 +13,11 @@
 
   img {
     vertical-align: middle;
-    max-width: 5%;
+    max-width: 20%;
+  }
+
+  iframe {
+    max-width: 100%;
   }
   
   .edge {
@@ -22,18 +26,36 @@
       color:rgb(255, 255, 255);
       background-color:rgb(44, 44, 151);
   }
+
+  #menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #ffffff;
+     position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
   
+  #menu::before {
+    content: "☰";
+  }
+
+  #menu.open::before {
+    content: "X";
+  }
+
   nav a {
+    display: none;
     list-style-type: none;
     margin: 0;
     padding: 0;
     background-color: #000000;
-    display: block;
     color: #fff;
     padding: 8px 16px;
     text-decoration: none;
   }
-  
+
   nav a.active {
     background-color: rgb(95, 95, 95);
     color: black;
@@ -42,6 +64,10 @@
   nav a:hover:not(.active) {
     background-color: rgb(95, 95, 95);
     color: white;
+  }
+
+  .open a {
+    display: block;
   }
   
   .card{
