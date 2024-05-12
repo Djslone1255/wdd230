@@ -1,0 +1,53 @@
+body{
+    font-family: Montserrat, Arial, sans-serif ;
+    background-color: #FCFCFC;
+    color:#07020D
+}
+
+h2 {
+    background-color: #376996;
+    color: #FCFCFC;
+    font-family: Merriweather, Georgia, serif;
+    padding: 0.5em;
+}
+
+header, footer {
+    background-color: #5A9367;
+    padding: 2em;
+}
+
+.typograpgy{
+    border: 5px solid #07020D;
+}
+
+#colors {
+    padding: 10px;
+}
+#colors > p {
+    margin: 0;
+    padding: 10px;
+}
+
+#seaGreen {
+    background-color: #5A9367;
+    color: #FCFCFC;
+}
+
+#lapisLazuli {
+    background-color: #376996;
+    color: #FCFCFC;
+}
+
+#white {
+    background-color: #FCFCFC;
+}
+
+#black {
+    background-color: #07020D;
+    color: #FCFCFC;
+}
+
+#blackOlive {
+    background-color: #353D2F;
+    color: #FCFCFC;
+}
