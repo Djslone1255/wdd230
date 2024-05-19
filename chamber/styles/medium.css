@@ -1,0 +1,25 @@
+@media screen and (min-width: 680px) {
+
+    nav {
+        display: flex;
+    }
+
+    nav a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .busniess{
+        display: flex;
+    }
+
+    .busniess article{
+        display: block;
+        flex: 1 1 100%;
+    }
+
+}
