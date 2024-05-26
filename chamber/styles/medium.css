@@ -13,11 +13,11 @@
         display: none;
     }
 
-    .busniess{
+    .busniess div{
         display: flex;
     }
 
-    .busniess article{
+    .busniess div article{
         display: block;
         flex: 1 1 100%;
     }

@@ -32,6 +32,10 @@
                 <img src="images/logo.png" alt="Logo">
                 Port Orchard Chamber of Commerce Home Page
             </h1>
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
             <button id="menu"></button>
         </header>
         <nav class="navigation">
@@ -41,35 +45,39 @@
             <a href="chamber-membership">Memberships</a>
         </nav>
         <main>
-            <img class="hero-image" src="https://upload.wikimedia.org/wikipedia/en/7/79/Port_Orchard_WA%2C_October_2015.jpg" alt="Picture of Port Orchard">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <div class="join">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                <a href="chamber-membership">Join Now</a>
-            </div>
-            <Section>
-                <h2>weather</h2>
-                <p>Weather: cloudy or rainy <br>
-                    Nunber of visits: some</p>
-            </Section>
-            <Section>
-                <h2>Events</h2>
-            </Section>
-            <Section class="busniess">
+            <img class="hero" src="https://upload.wikimedia.org/wikipedia/en/7/79/Port_Orchard_WA%2C_October_2015.jpg" alt="Picture of Port Orchard">
+            <section class="herotext">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="join">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <a href="chamber-membership">Join Now</a>
+                </div>
+                <section class = "card">
+                    <h2>weather</h2>
+                    <p>Weather: cloudy or rainy <br>
+                        Nunber of visits: some</p>
+                </section>
+                <section class = "card">
+                    <h2>Events</h2>
+                </section>
+            </section>
+            <section class="busniess">
                 <h2>Busniess</h2>
-                <article>
-                    <img src="" alt="Busnies Image">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </article>
-                <article>
-                    <img src="" alt="Busnies Image">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </article>
-                <article>
-                    <img src="" alt="Busnies Image">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </article>
-            </Section>
+                <div>
+                    <article class = "card">
+                        <img src="" alt="Busnies Image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </article>
+                    <article class = "card">
+                        <img src="" alt="Busnies Image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </article>
+                    <article class = "card">
+                        <img src="" alt="Busnies Image">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </article>
+                </div>
+            </section>
         </main>
         <footer> 
             <p>&copy; <span id="year"></span> <br>
@@ -80,5 +88,6 @@
         </footer>
         <script src="scripts/getdates.js"></script>
         <script src="scripts/hanburgemenu.js"></script>
+        <script src="scripts/darkmode.js"></script>
     </body>
 </html>
