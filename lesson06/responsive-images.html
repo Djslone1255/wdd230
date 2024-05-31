@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta ptoperty="og:title" content="Responsive Images" />
+        <meta ptoperty="og:type" content="website" />
+        <meta ptoperty="og:url" content="https://djslone1255.github.io/wdd230/" />
+        <meta ptoperty="og:image" content="http://www.mccormickwoodshoa.com/mccormickwoodshoa/upld_files/hoa0669/f0625_mccormick_woods_entrance--june_11_2011_2_1.jpg" />
+        <title>
+            David Slone - WDD 230 - Web Frontend Development            
+        </title>
+        <meta 
+        name="description"
+        content="Responsive Images demonstration.">
+        <meta
+        name="author"
+        content="David Slone">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+    </head>
+    <body>
+        <main>
+            <div class="hero">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width:500px)">
+                    <source srcset="images/hero-medium.webp" media="(max-width:1000px)">
+                    <img src="images/hero-large.webp" alt="Seattle temple" width="1500" height="750">
+                </picture>
+            </div>
+        </main>
+    </body>
+</html>
